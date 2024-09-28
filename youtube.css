@@ -16,6 +16,7 @@ p{
 .button-theme{
   color:white;
   border-radius: 20px;
+  background-color: black;
   border-color: cadetblue;
   font-size: 20px;
   cursor: pointer;
