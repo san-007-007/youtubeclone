@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--Youtube cloning.... -->
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap" rel="stylesheet">
+    <title>Youtube clone</title>
+    <link href="youtube.css" rel="stylesheet">
+  </head>
+  <body> 
+    <div class="Title">
+      <img class="Title-icon" src="thumbnails/search_icon.png">
+      <input type="search" class="search-bar" placeholder="search">
+      <a href="https://www.youtube.com/" target="_blank"><img src="thumbnails/youtubelogo.png" class="Title-icon">
+      <div class="Title-text-container">
+        <p class="Title-text">YouTube</p>
+      </div></a>
+      <button onclick="changeBgColor()" class="button-theme"><p style="font-family: Jacquard 24;">Change Theme</p></button>
+    </div>
+    <div class="grid-container">
+      <div class="video-preview" onclick="window.open('https://www.youtube.com/watch?v=mqqft2x_Aa4','_blank')">
+        <a href="https://www.youtube.com/watch?v=mqqft2x_Aa4" target="_blank"><img src="thumbnails/3.webp"></a>
+        <div class="preview-profile">
+          <img src="thumbnails/profile pic/1.webp" class="profile-pic">
+        </div>
+        <div class="video-preview-text">
+          <p class="t">Batman</p>
+          <p>DC comics</p>
+          <p>6M views &#183; 12 months ago</p>
+        </div>
+      </div>
+      <div class="video-preview" onclick="window.open('https://www.youtube.com/watch?v=65iW-nM4ncs','_blank')">
+        <a href="https://www.youtube.com/watch?v=65iW-nM4ncs" target="_blank"><img src="thumbnails/2.jpeg"></a>
+  
+        <div class="preview-profile">
+          <img src="thumbnails/profile pic/2.png" class="profile-pic">
+        </div>
+  
+        <div class="video-preview-text">
+          <p class="t">Miles Morales</p>
+          <p>Marvel comics</p>
+          <p>4M views &#183; 4 years ago</p>
+        </div>
+      </div>
+
+      <div class="video-preview" onclick="window.open('https://www.youtube.com/watch?v=Dw_oH5oiUSE','_blank')">
+        <a href="https://www.youtube.com/watch?v=Dw_oH5oiUSE" target="_blank"><img src="thumbnails/4.jpg"></a>
+        <div class="preview-profile">
+          <img src="thumbnails/profile pic/3.avif" class="profile-pic">
+        </div>
+        <div class="video-preview-text">
+          <p class="t">Red Dead Redemption 2</p>
+          <p>Rockstar</p>
+          <p>6M views &#183; 12 months ago</p>
+        </div>
+      </div>
+
+      <div class="video-preview" onclick="window.open('https://www.youtube.com/watch?v=htzq7EEXQs8','_blank')">
+        <a href="'https://www.youtube.com/watch?v=htzq7EEXQs8" target="_blank"><img src="thumbnails/5.jpg"></a>
+        <div class="preview-profile">
+          <img src="thumbnails/profile pic/4.jpg" class="profile-pic">
+        </div>
+        <div class="video-preview-text">
+          <p class="t">Prince of Persia</p>
+          <p>Ubisoft</p>
+          <p>6M views &#183; 12 months ago</p>
+        </div>
+      </div>
+
+      <div class="video-preview" onclick="window.open('https://www.youtube.com/watch?v=4Uc_dbG7MR8','_blank')">
+        <a href="https://www.youtube.com/watch?v=4Uc_dbG7MR8"><img src="thumbnails/6.png"></a>
+        <div class="preview-profile">
+          <img src="thumbnails/profile pic/3.avif" class="profile-pic">
+        </div>
+        <div class="video-preview-text">
+          <p class="t">Max Payne</p>
+          <p>Rockstar</p>
+          <p>6M views &#183; 12 months ago</p>
+        </div>
+      </div>
+
+      <div class="video-preview" onclick="window.open('https://www.youtube.com/watch?v=FO4e9kC-ieo','_blank')">
+        <a href="https://www.youtube.com/watch?v=FO4e9kC-ieo" target="_blank"><img src="thumbnails/7.jpg"></a>
+        <div class="preview-profile">
+          <img src="thumbnails/profile pic/5.svg" class="profile-pic">
+        </div>
+        <div class="video-preview-text">
+          <p class="t">Shadow of tomb raider</p>
+          <p>Eidos</p>
+          <p>6M views &#183; 12 months ago</p>
+        </div>
+      </div>
+      
+      <div class="video-preview" onclick="window.open('https://www.youtube.com/watch?v=iqysmS4lxwQ','_blank')">
+        <a href="https://www.youtube.com/watch?v=iqysmS4lxwQ" target="_blank"><img src="thumbnails/8.jpg"></a>
+        <div class="preview-profile">
+          <img src="thumbnails/profile pic/6.png" class="profile-pic">
+        </div>
+        <div class="video-preview-text">
+          <p class="t">Ghost of Tsushima</p>
+          <p>IGN</p>
+          <p>6M views &#183; 12 months ago</p>
+        </div>
+      </div>
+
+      </div>
+  </body>
+</html>
+<script> 
+  function changeBgColor(){
+    if(document.body.style.backgroundColor=="black"){
+      document.body.style.backgroundColor="saddlebrown";  
+    }else{
+      document.body.style.backgroundColor="black";
+    } 
+  }
+</script>
